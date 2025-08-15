@@ -6,8 +6,17 @@ const [activeSection, setActiveSection] = useState('home');
 const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
 useEffect(() => {
+    // Force scroll to top on page load/refresh - multiple methods for reliability
+    if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
+    
     window.scrollTo(0, 0);
-
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    
+    // Also reset the active section
+    setActiveSection('home');
     setIsVisible(true);
     
     const handleMouseMove = (e) => {
