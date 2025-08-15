@@ -4,7 +4,7 @@ export const projectsData = [
     description: "Full-stack portfolio website showcasing my skills and projects. Built with React, Tailwind CSS, and Node.js.",
     tech: ["React", "Node", "Tailwind CSS"],
     github: "https://github.com/WayneHPilot/My-Portfolio",
-    live: "https://ecommerce-demo.netlify.app",
+    live: "https://my-portfolio-pi-one-57.vercel.app/",
     gradient: "from-purple-600 to-blue-600"
 },
 {
