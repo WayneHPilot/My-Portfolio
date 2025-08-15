@@ -6,6 +6,8 @@ const [activeSection, setActiveSection] = useState('home');
 const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
 useEffect(() => {
+    window.scrollTo(0, 0);
+
     setIsVisible(true);
     
     const handleMouseMove = (e) => {
