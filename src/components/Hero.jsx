@@ -3,7 +3,7 @@ import { ChevronDown } from 'lucide-react';
 import TypingAnimation from './TypingAnimation';
 
 const Hero = ({ isVisible, scrollToSection }) => {
-const technologies = ['JavaScript', 'Python', 'React.js', 'Flask'];
+const technologies = ['JavaScript', 'Python', 'TypeScript', 'React.js', 'Node.js', 'Tailwind', 'Flask'];
 const typingTexts = [
     'Full Stack Developer',
     'React Enthusiast', 

@@ -1,26 +1,42 @@
 export const projectsData = [
 {
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with React frontend and Flask backend. Features include user authentication, payment integration, and admin dashboard.",
-    tech: ["React", "Flask", "Python", "SQLite"],
-    github: "https://github.com/username/ecommerce-platform",
+    title: "This Portfolio",
+    description: "Full-stack portfolio website showcasing my skills and projects. Built with React, Tailwind CSS, and Node.js.",
+    tech: ["React", "Node", "Tailwind CSS"],
+    github: "https://github.com/WayneHPilot/My-Portfolio",
     live: "https://ecommerce-demo.netlify.app",
     gradient: "from-purple-600 to-blue-600"
 },
 {
-    title: "Task Management API",
-    description: "RESTful API built with Flask and Python for managing tasks and projects. Includes user authentication, CRUD operations, and data validation.",
-    tech: ["Flask", "Python", "SQLAlchemy", "JWT"],
-    github: "https://github.com/username/task-api",
-    live: "https://task-api-demo.herokuapp.com",
+    title: "Pokemon Website",
+    description: "Pokemon fan site with detailed information on various Pokemon using the Pokemon API. Built with HTML, CSS and Javascript.",
+    tech: ["HTML", "CSS", "Javascript", "API"],
+    github: "https://github.com/WayneHPilot/Pokemon-Website",
+    live: "https://waynehpilot.github.io/Pokemon-Website/",
     gradient: "from-green-600 to-teal-600"
 },
 {
-    title: "Interactive Dashboard",
-    description: "Dynamic data visualization dashboard built with vanilla JavaScript and modern CSS. Features responsive charts and real-time data updates.",
-    tech: ["JavaScript", "HTML5", "CSS3", "Chart.js"],
-    github: "https://github.com/username/data-dashboard",
-    live: "https://dashboard-demo.netlify.app",
+    title: "Python File Cleanup App",
+    description: "A GUI file cleanup application built with Python that allows users to track their drive space, cleanup temp files and backup files.",
+    tech: ["Python", "matplotlib", "TKInter"],
+    github: "https://github.com/WayneHPilot/File-Cleaner/blob/main/file_cleaner.py",
+    live: "#",
     gradient: "from-orange-600 to-red-600"
-}
+},
+{
+    title: "Live Weather App",
+    description: "A python application, that uses Flask, that fetches and displays weather data based on user location input.",
+    tech: ["Python", "Flask", "matplotlib", "API"],
+    github: "https://github.com/WayneHPilot/Flask-Weather-App",
+    live: "https://flask-weather-app-r6u0.onrender.com/",
+    gradient: "from-blue-600 to-teal-600"
+},
+{
+    title: "More to come soon!",
+    description: "Stay tuned for more exciting projects as I continue to explore and create.",
+    tech: ["Coming Soon"],
+    github: "#",
+    live: "#",
+    gradient: "from-red-600 to-pink-600"
+},
 ];
